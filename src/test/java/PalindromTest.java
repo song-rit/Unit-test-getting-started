@@ -23,6 +23,7 @@ public class PalindromTest {
 		assertEquals(true, p.isPalindrom("22222"));
 		assertEquals(true, p.isPalindrom("101"));
 		assertEquals(true, p.isPalindrom("ABCBA"));
+		assertEquals(true, p.isPalindrom(p.parseToPalindrom("123")));
 	}
 
 }
